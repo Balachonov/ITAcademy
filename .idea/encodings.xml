@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/task02/t03/Cat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task02/t03/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task02/t03/Runner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t01main/Cat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t01main/CatFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t01main/RandomAgeName.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t01main/Runner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t02/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task04/t02/Task.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/ArrayCreate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/ArrayRunner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/Constants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/CreateMatrix.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task05/t01main/RandomInArray.java" charset="UTF-8" />
+  </component>
+</project>
