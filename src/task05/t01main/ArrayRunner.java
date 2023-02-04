@@ -7,7 +7,7 @@ public class ArrayRunner {
     ArrayCreate arrayCreate = new ArrayCreate();
     public void runArray() {
         System.out.println(TASK_1);
-        System.out.println("Первая диагональ:");
+        System.out.println("Первая диагональ: ");
         for (int i = 0; i < arrayCreate.createFirstDiagonal().length; i++) {
             System.out.print(arrayCreate.createFirstDiagonal()[i] + " ");
         }
