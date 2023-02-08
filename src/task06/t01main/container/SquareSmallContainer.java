@@ -2,7 +2,7 @@ package task06.t01main.container;
 
 public class SquareSmallContainer extends Container {
 
-    public int waterMassSquareBigContainer = waterMass(super.volume(square(10)));
+    public int waterSquareSmallContainer = waterMass(super.volume(square(10)));
 
     @Override
     protected double square(int diagonal) {

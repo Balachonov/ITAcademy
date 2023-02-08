@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675880622653</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Homework">
+      <created>1675881419280</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675881419280</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

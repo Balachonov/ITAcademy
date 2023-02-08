@@ -1,8 +1,8 @@
 package task06.t01main.container;
 
-public class CylinderSmallContainer extends Container{
+public class ConeBigContainer extends Container{
 
-    public int waterMassCylinderSmallContainer = waterMass(super.volume(square(10)));
+    public int waterConeBigContainer = waterMass(super.volume(square(20)));
 
     @Override
     protected double square(int diagonal) {
@@ -11,6 +11,6 @@ public class CylinderSmallContainer extends Container{
 
     @Override
     protected int waterMass(double volume) {
-        return (int) Math.round(volume * super.waterDensity);
+        return (int) Math.round(volume * super.waterDensity * 0.5);
     }
 }

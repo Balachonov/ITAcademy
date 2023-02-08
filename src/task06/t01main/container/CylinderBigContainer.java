@@ -2,11 +2,11 @@ package task06.t01main.container;
 
 public class CylinderBigContainer extends Container{
 
-    public int waterMassSquareBigContainer = waterMass(super.volume(square(20)));
+    public int waterMassCylinderBigContainer = waterMass(super.volume(square(20)));
 
     @Override
     protected double square(int diagonal) {
-        return Math.PI * 20 * 20;
+        return Math.PI * diagonal * diagonal;
     }
 
     @Override
