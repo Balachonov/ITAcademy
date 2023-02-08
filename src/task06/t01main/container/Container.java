@@ -5,7 +5,6 @@ import java.util.Random;
 public abstract class Container {
 
     protected int waterDensity = waterDensity();
-    protected int height = doHeight();
     private final int WATER_DENSITY_ONE = 1000;
     private final int WATER_DENSITY_TWO = 2000;
     protected Random random = new Random();
