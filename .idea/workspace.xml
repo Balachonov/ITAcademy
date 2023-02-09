@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/deck/TwoDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/deck/FourContainerDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/OneDeckShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/TwoDeckShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/FourDeck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/TwoDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/deck/TwoContainerDeck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task02.t03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task02.t03.Main" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Runner" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task02.t03.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,9 +135,9 @@
       <list>
         <item itemvalue="Application.task06.t01main.Main" />
         <item itemvalue="Application.task05.t01main.Main" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.task04.t02.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.task02.t03.Main" />
       </list>
     </recent_temporary>
   </component>

@@ -17,5 +17,20 @@
     <file url="file://$PROJECT_DIR$/src/task05/t01main/CreateMatrix.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task05/t01main/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task05/t01main/RandomInArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/Container.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/deck/FourContainerDeck.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/deck/TwoContainerDeck.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/port/Port.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/OneDeckShip.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/Ship.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/TwoDeckShip.java" charset="UTF-8" />
   </component>
 </project>
