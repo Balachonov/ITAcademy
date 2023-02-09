@@ -10,11 +10,11 @@ public abstract class Container {
 
     protected int waterDensity = (random.nextInt(2) == 0) ? WATER_DENSITY_ONE : WATER_DENSITY_TWO;
 
-    public abstract double square(int diagonal);
+    protected abstract double square(int diagonal);
 
-    public abstract int waterMass(double volume);
+    protected abstract int waterMass(double volume);
 
-    public double volume(double square) {
+    protected double volume(double square) {
         return doHeight() * square;
     }
 

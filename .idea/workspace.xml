@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/deck/FourContainerDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/OneDeckShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/ship/TwoDeckShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task06/t01main/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" afterDir="false" />
@@ -19,8 +13,7 @@
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/FourDeck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/TwoDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/deck/TwoContainerDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675881992169</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Homework">
+      <created>1675973100319</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675973100319</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

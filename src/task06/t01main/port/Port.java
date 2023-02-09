@@ -6,16 +6,25 @@ import task06.t01main.ship.TwoDeckShip;
 import java.util.Random;
 
 public class Port {
-    Random random = new Random();
-    public int portRunner(){
-        int totalWaterMass = 0;
-        for (int i = 0; i < 10; i++) {
-            totalWaterMass += oneShipInPort();
+    static Random random = new Random();
+
+    public static int totalMassWater() {
+        int totalMassWater = 0;
+        for (int i = 0; i < portRunner().length; i++) {
+            totalMassWater += portRunner()[i];
         }
-        return totalWaterMass;
+        return totalMassWater;
     }
 
-    public int oneShipInPort(){
+    private static int[] portRunner() {
+        int[] port = new int[10];
+        for (int i = 0; i < 10; i++) {
+            port[i] = oneShipInPort();
+        }
+        return port;
+    }
+
+    private static int oneShipInPort() {
         int waterMassOneShip = 0;
         OneDeckShip temp = new OneDeckShip();
         TwoDeckShip temp1 = new TwoDeckShip();

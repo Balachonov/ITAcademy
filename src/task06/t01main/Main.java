@@ -23,8 +23,7 @@ import task06.t01main.port.Port;
  */
 public class Main {
     public static void main(String[] args) {
-        Port port = new Port();
-        System.out.println("Общая масса рандомной воды в рандомных контейнерах на рандомных палубах у рандомных 10 " +
-                "кораблей равна - " + port.portRunner() + " каких-то единиц.");
+        Runner runner = new Runner();
+        runner.run();
     }
 }
