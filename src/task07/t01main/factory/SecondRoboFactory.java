@@ -1,4 +1,7 @@
-package task07.t01main;
+package task07.t01main.factory;
+
+import task07.t01main.entities.ChoicePart;
+import task07.t01main.entities.Head;
 
 import java.util.Random;
 

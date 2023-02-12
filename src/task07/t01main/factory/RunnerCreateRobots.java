@@ -1,4 +1,4 @@
-package task07.t01main;
+package task07.t01main.factory;
 
 import java.util.Scanner;
 

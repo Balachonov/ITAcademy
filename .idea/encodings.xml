@@ -33,13 +33,20 @@
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/OneDeckShip.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/Ship.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/TwoDeckShip.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/Body.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/ChoicePart.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/FirstRoboFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/Head.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task07/t01main/Main.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/Robot.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/RunnerCreateRobots.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/Body.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/Body.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/ChoicePart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/ChoicePart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/Head.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/entities/Head.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/FirstRoboFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/FirstRoboFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/SecondRoboFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/factory/SecondRoboFactory.java" charset="UTF-8" />
   </component>
 </project>

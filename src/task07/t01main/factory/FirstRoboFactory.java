@@ -1,9 +1,11 @@
-package task07.t01main;
+package task07.t01main.factory;
+
+import task07.t01main.entities.Body;
+import task07.t01main.entities.ChoicePart;
 
 import java.util.Random;
 
-public class FirstRoboFactory implements ChoicePart <Body> {
-
+public class FirstRoboFactory implements ChoicePart<Body> {
     private Body body = choiceRoboPart(Body.values());
 
     @Override
