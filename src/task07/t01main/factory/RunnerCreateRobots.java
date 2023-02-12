@@ -9,7 +9,7 @@ public class RunnerCreateRobots {
         int count = scanner.nextInt();
         for (int i = 0; i < count; i++) {
             Robot robot = new Robot();
-            System.out.println("Робот №" + (i+1) + robot.robot());
+            System.out.println("Робот №" + (i+1) + "\n"+robot.createRobot());
         }
     }
 }

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/entities/Body.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/ChoicePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/entities/ChoicePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/FirstRoboFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/FirstRoboFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Head.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/entities/Head.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task07/t01main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/RunnerCreateRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/SecondRoboFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/FirstRoboFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/SecondRoboFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -126,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.task06.t01main.Main" />
         <item itemvalue="Application.task05.t01main.Main" />
         <item itemvalue="Application.Runner" />
@@ -310,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676211246653</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Homework">
+      <created>1676211857991</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676211857991</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
