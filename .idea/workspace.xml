@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task06/t01main/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/ChoicePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/FirstRoboFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/RunnerCreateRobots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderBigContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/CylinderSmallContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareBigContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/container/SquareSmallContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/deck/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task06/t01main/port/Port.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Курсы/123/Homework&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Курсы/123/Homework"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Курсы\ITAcademyHomework\Homework\src" />
@@ -58,20 +58,7 @@
       <recent name="task02.t03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task06.t01main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task04.t01main.Main" />
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task04.t01main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.task07.t01main.Main">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Runner" />
       <module name="Homework" />
@@ -124,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task07.t01main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task07.t01main.Main" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task07.t01main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task07.t01main.Main" />
         <item itemvalue="Application.task06.t01main.Main" />
         <item itemvalue="Application.task05.t01main.Main" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.task04.t02.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675973100319</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Homework">
+      <created>1675975910988</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1675975910988</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Homework">
+      <created>1675975944355</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1675975944355</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

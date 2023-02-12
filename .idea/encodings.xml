@@ -18,6 +18,7 @@
     <file url="file://$PROJECT_DIR$/src/task05/t01main/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task05/t01main/RandomInArray.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task06/t01main/Runner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/container/ConeBigContainer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/container/ConeSmallContainer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/container/Container.java" charset="UTF-8" />
@@ -32,5 +33,13 @@
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/OneDeckShip.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/Ship.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task06/t01main/ship/TwoDeckShip.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/Body.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/ChoicePart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/FirstRoboFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/Head.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/Robot.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/RunnerCreateRobots.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" charset="UTF-8" />
   </component>
 </project>
