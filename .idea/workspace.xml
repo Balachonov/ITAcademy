@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/ChoicePart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/FirstRoboFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/RunnerCreateRobots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Head.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/Head.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/SecondRoboFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675975944355</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Homework">
+      <created>1676211121383</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676211121383</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

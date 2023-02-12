@@ -11,10 +11,6 @@ public enum Head {
         this.title = title;
     }
 
-    public String getHead() {
-        return title;
-    }
-
     @Override
     public String toString() {
         return title;

@@ -2,7 +2,7 @@ package task07.t01main;
 
 import java.util.Random;
 
-public class SecondRoboFactory implements ChoicePart <Head>{
+public class SecondRoboFactory implements ChoicePart<Head> {
 
     private Head head = choiceRoboPart(Head.values());
 
