@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
+      <change afterPath="$PROJECT_DIR$/src/task08/t01main/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task08/t01main/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task08/t01main/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/FirstRoboFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task07/t01main/factory/RunnerCreateRobots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task07/t01main/factory/SecondRoboFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -314,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676211857991</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Homework">
+      <created>1676222202559</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676222202559</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

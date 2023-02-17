@@ -1,5 +1,6 @@
 package test;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Runner {
@@ -12,7 +13,7 @@ public class Runner {
         System.out.println(i);
 
     }
-
+ArrayList
     public static int printRandom(){
 
         return ((random.nextInt(2) == 0) ? 2 : 4);
