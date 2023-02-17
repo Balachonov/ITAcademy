@@ -34,18 +34,32 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     @Override
-    public void add(T value) {
-        size();
-
+    public boolean add(T value) {
+        if(size >= myArrayLists.length){
+            increaseMyArrayList();
+        }
+        myArrayLists[size++] = value;
+        return true;
     }
 
     @Override
     public void add(int index, T value) {
-
+        if (size + 1 >= myArrayLists.length) {
+            increaseMyArrayList();
+        }
+        else if (index > size) {
+            index = size;
+        }
+        for (int i = size; i >= index; i--) {
+            myArrayLists[i + 1] = myArrayLists[i];
+        }
+        myArrayLists[index] = value;
+        size++;
     }
 
     @Override
     public void remove(Object value) {
+
 
     }
 
@@ -103,6 +117,15 @@ public class MyArrayList<T> implements MyList<T> {
 
     private void increaseMyArrayList(){
         Object[] newMyArrayList = new Object[(int) (capacity * 1.5) + 1];
+        for (int i = 0; i < size; i++) {
+            newMyArrayList[i] = myArrayLists[i];
+            myArrayLists[i] = null;
+        }
+        myArrayLists = newMyArrayList;
+    }
+
+    private void decreaseMyArrayList(){
+        Object[] newMyArrayList = new Object[size + 1];
         for (int i = 0; i < size; i++) {
             newMyArrayList[i] = myArrayLists[i];
             myArrayLists[i] = null;
