@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
+      <change afterPath="$PROJECT_DIR$/src/task08/t01main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task08/t01main/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task08/t01main/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/task08/t01main/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task08/t01main/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <recent name="task02.t03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task07.t01main.Main" />
       <module name="Homework" />
@@ -119,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.task06.t01main.Main" />
         <item itemvalue="Application.task05.t01main.Main" />
-        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.task04.t02.Main" />
       </list>
     </recent_temporary>
@@ -325,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676657364999</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Homework">
+      <created>1676662404966</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676662404966</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -6,7 +6,7 @@ public interface MyList <T> extends Iterable {
     boolean contains(Object value);
     boolean add(T value);
     void add(int index, T value);
-    void remove(Object value);
+    boolean remove(Object value);
     boolean addAll(MyList<? extends T> value);
     T get (int index);
     T remove (int index);

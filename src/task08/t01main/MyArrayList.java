@@ -6,23 +6,18 @@ import java.util.function.Consumer;
 
 public class MyArrayList<T> implements MyList<T> {
 
-    private static int capacity = 10;
+    private static final int CAPACITY = 10;
     private static int size = 0;
     private Object[] myArrayLists;
 
     @Override
     public int size() {
-        for (Object t : myArrayLists) {
-            if (t != null) {
-                size++;
-            }
-        }
         return size;
     }
 
     @Override
     public boolean isEmpty() {
-        return size() > 0;
+        return size > 0;
     }
 
     @Override
@@ -35,20 +30,18 @@ public class MyArrayList<T> implements MyList<T> {
 
     @Override
     public boolean add(T value) {
-        if(size >= myArrayLists.length){
+        if (size >= myArrayLists.length) {
             increaseMyArrayList();
         }
-        myArrayLists[size++] = value;
+        myArrayLists[size] = value;
+        size++;
         return true;
     }
 
     @Override
     public void add(int index, T value) {
-        if (size + 1 >= myArrayLists.length) {
+        if (size >= myArrayLists.length) {
             increaseMyArrayList();
-        }
-        else if (index > size) {
-            index = size;
         }
         for (int i = size; i >= index; i--) {
             myArrayLists[i + 1] = myArrayLists[i];
@@ -58,14 +51,31 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     @Override
-    public void remove(Object value) {
-
-
+    public boolean remove(Object value) {
+        boolean isRemove = false;
+        for (int i = 0; i < myArrayLists.length; i++) {
+            if (myArrayLists[i].equals(value)) {
+                myArrayLists[i] = null;
+                isRemove = true;
+            }
+        }
+        if (isRemove) {
+            decreaseMyArrayList();
+        }
+        return isRemove;
     }
 
     @Override
     public boolean addAll(MyList<? extends T> value) {
-        return false;
+        Object[] newMyArrayList = new Object[size + value.size()];
+        for (int i = 0; i < size; i++) {
+            newMyArrayList[i] = myArrayLists[i];
+        }
+        for (int i = 0; i < value.size(); i++) {
+            newMyArrayList[i + size] = value.get(i);
+        }
+        size = size + value.size();
+        return true;
     }
 
     @Override
@@ -104,31 +114,38 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     public MyArrayList() {
-        this.myArrayLists = (T[]) new Object[capacity];
+        this.myArrayLists = (T[]) new Object[CAPACITY];
     }
 
     public MyArrayList(int capacity) {
         this.myArrayLists = (T[]) new Object[capacity];
     }
 
-    MyArrayList(MyList<? extends T> col){
+    MyArrayList(MyList<? extends T> col) {
 
     }
 
-    private void increaseMyArrayList(){
-        Object[] newMyArrayList = new Object[(int) (capacity * 1.5) + 1];
-        for (int i = 0; i < size; i++) {
+    private void increaseMyArrayList() {
+        Object[] newMyArrayList = new Object[(int) Math.floor(CAPACITY * 1.5)];
+        for (int i = 0; i < myArrayLists.length; i++) {
             newMyArrayList[i] = myArrayLists[i];
-            myArrayLists[i] = null;
         }
         myArrayLists = newMyArrayList;
     }
 
-    private void decreaseMyArrayList(){
-        Object[] newMyArrayList = new Object[size + 1];
-        for (int i = 0; i < size; i++) {
-            newMyArrayList[i] = myArrayLists[i];
-            myArrayLists[i] = null;
+    private void decreaseMyArrayList() {
+        for (Object myArrayList : myArrayLists) {
+            if (myArrayList == null) {
+                size--;
+            }
+        }
+        Object[] newMyArrayList = new Object[size];
+        int countNewMyArrayList = 0;
+        for (int i = 0; i < myArrayLists.length; i++) {
+            if (myArrayLists[i] != null) {
+                newMyArrayList[countNewMyArrayList] = myArrayLists[i];
+                countNewMyArrayList++;
+            }
         }
         myArrayLists = newMyArrayList;
     }

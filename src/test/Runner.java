@@ -4,18 +4,15 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Runner {
-    static Random random = new Random();
     public static void main(String[] args) {
+        ArrayList<Test> strings = new ArrayList<>();
+        strings.add(new Test());
+        strings.add(new Test());
+        strings.add(new Test());
+        strings.add(new Test());
+        strings.add(new Test());
+        strings.add(3, new Test());
+        System.out.println(strings.get(5));
 
-        int i = printRandom();
-
-
-        System.out.println(i);
-
-    }
-ArrayList
-    public static int printRandom(){
-
-        return ((random.nextInt(2) == 0) ? 2 : 4);
     }
 }
