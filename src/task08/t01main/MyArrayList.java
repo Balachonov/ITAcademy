@@ -54,6 +54,7 @@ public class MyArrayList<T> implements MyList<T> {
             if (myArrayLists[i].equals(value)) {
                 myArrayLists[i] = null;
                 isRemove = true;
+                break;
             }
         }
         if (isRemove) {

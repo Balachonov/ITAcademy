@@ -5,14 +5,13 @@ import java.util.Random;
 
 public class Runner {
     public static void main(String[] args) {
-        ArrayList<Test> strings = new ArrayList<>();
-        strings.add(new Test());
-        strings.add(new Test());
-        strings.add(new Test());
-        strings.add(new Test());
-        strings.add(new Test());
-        strings.add(3, new Test());
-        System.out.println(strings.get(5));
+        ArrayList<Integer> strings = new ArrayList<>();
+        strings.add(0);
+        strings.add(13);
+        strings.add(13);
+        strings.add(12);
+        strings.remove((Integer) 13);
+        System.out.println(strings.get(1));
 
     }
 }
