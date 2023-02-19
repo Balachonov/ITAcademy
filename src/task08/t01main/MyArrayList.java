@@ -33,10 +33,10 @@ public class MyArrayList<T> implements MyList<T> {
 
     @Override
     public boolean add(int index, T value) {
-        if (size >= myArrayLists.length) {
-            increaseMyArrayList();
-        }
         for (int i = size; i >= index; i--) {
+            if (size >= myArrayLists.length) {
+                increaseMyArrayList();
+            }
             myArrayLists[i + 1] = myArrayLists[i];
         }
         myArrayLists[index] = value;
@@ -47,12 +47,16 @@ public class MyArrayList<T> implements MyList<T> {
     @Override
     public boolean remove(Object value) {
         boolean isRemove = false;
-        for (int i = 0; i < myArrayLists.length; i++) {
+        int count = 0;
+        for (int i = 0; i < size; i++) {
             if (myArrayLists[i].equals(value)) {
-                myArrayLists[i] = myArrayLists[i + 1];
+                count = i;
                 isRemove = true;
                 break;
             }
+        }
+        for (int i = count; i < size; i++) {
+            myArrayLists[i] = myArrayLists[i + 1];
         }
         size--;
         return isRemove;
@@ -83,20 +87,20 @@ public class MyArrayList<T> implements MyList<T> {
         for (int i = index; i < size; i++) {
             myArrayLists[i] = myArrayLists[i + 1];
         }
-        size --;
+        size--;
         return temp;
     }
 
     @Override
     public T set(int index, T value) {
-        if (size >= myArrayLists.length) {
-            increaseMyArrayList();
-        }
+        size++;
         for (int i = size; i >= index; i--) {
+            if (size >= myArrayLists.length) {
+                increaseMyArrayList();
+            }
             myArrayLists[i + 1] = myArrayLists[i];
         }
         myArrayLists[index] = value;
-        size++;
         return (T) myArrayLists[index];
     }
 
