@@ -1,9 +1,5 @@
 package task08.t01main;
 
-import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
-
 public class MyArrayList<T> implements MyList<T> {
 
     private static final int CAPACITY = 10;
@@ -39,7 +35,7 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     @Override
-    public void add(int index, T value) {
+    public boolean add(int index, T value) {
         if (size >= myArrayLists.length) {
             increaseMyArrayList();
         }
@@ -48,6 +44,7 @@ public class MyArrayList<T> implements MyList<T> {
         }
         myArrayLists[index] = value;
         size++;
+        return true;
     }
 
     @Override
@@ -75,42 +72,46 @@ public class MyArrayList<T> implements MyList<T> {
             newMyArrayList[i + size] = value.get(i);
         }
         size = size + value.size();
+        myArrayLists = newMyArrayList;
         return true;
     }
 
     @Override
     public T get(int index) {
-        return null;
+        return (T) myArrayLists[index];
     }
 
     @Override
     public T remove(int index) {
-        return null;
+        T temp = (T) myArrayLists[index];
+        myArrayLists[index] = null;
+        decreaseMyArrayList();
+        return temp;
     }
 
     @Override
     public T set(int index, T value) {
-        return null;
+        if (size >= myArrayLists.length) {
+            increaseMyArrayList();
+        }
+        for (int i = size; i >= index; i--) {
+            myArrayLists[i + 1] = myArrayLists[i];
+        }
+        myArrayLists[index] = value;
+        size++;
+        return (T) myArrayLists[index];
     }
 
     @Override
     public int indexOf(Object value) {
-        return 0;
-    }
-
-    @Override
-    public Iterator iterator() {
-        return null;
-    }
-
-    @Override
-    public void forEach(Consumer action) {
-        MyList.super.forEach(action);
-    }
-
-    @Override
-    public Spliterator spliterator() {
-        return MyList.super.spliterator();
+        int index = - 1;
+        for (int i = 0; i < myArrayLists.length; i++) {
+            if (myArrayLists[i].equals(value)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
     }
 
     public MyArrayList() {
@@ -122,7 +123,11 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     MyArrayList(MyList<? extends T> col) {
-
+        Object[] newMyArrayList = new Object[col.size()];
+        for (int i = 0; i < newMyArrayList.length; i++) {
+            newMyArrayList[i] = col.get(i);
+        }
+        myArrayLists = newMyArrayList;
     }
 
     private void increaseMyArrayList() {

@@ -1,11 +1,11 @@
 package task08.t01main;
 
-public interface MyList <T> extends Iterable {
+public interface MyList <T> {
     int size();
     boolean isEmpty();
     boolean contains(Object value);
     boolean add(T value);
-    void add(int index, T value);
+    boolean add(int index, T value);
     boolean remove(Object value);
     boolean addAll(MyList<? extends T> value);
     T get (int index);
