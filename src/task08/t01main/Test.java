@@ -8,8 +8,8 @@ public class Test {
         integers.add(2);
         integers.add(3);
         integers.add(4);
-
-        System.out.println(integers.get(4));
-        System.out.println(integers.contains(1));
+        integers.add(7, 13);
+        System.out.println(integers.get(7));
+        System.out.println(integers.contains(4));
     }
 }

@@ -8,10 +8,10 @@ public class Runner {
         ArrayList<Integer> strings = new ArrayList<>();
         strings.add(0);
         strings.add(13);
-        strings.add(13);
-        strings.add(12);
-        strings.remove((Integer) 13);
-        System.out.println(strings.get(1));
+        strings.add(null);
+        strings.add(6, 5);
+        System.out.println(strings.size());
+        System.out.println(strings.get(6));
 
     }
 }
