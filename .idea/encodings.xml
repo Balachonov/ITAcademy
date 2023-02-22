@@ -45,5 +45,11 @@
     <file url="file://$PROJECT_DIR$/src/task08/t01main/MyArrayList.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task08/t01main/MyList.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task08/t01main/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/CreateGroup.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/ITAcademyGroup.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/ExceededNumberPeopleGroupException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/IncorrectTeacherFirstNameException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/WrongReligionGroupException.java" charset="UTF-8" />
   </component>
 </project>
