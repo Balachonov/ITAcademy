@@ -15,7 +15,7 @@ public class ITAcademyGroup {
             ITAcademyGroup.teacherName = teacherName;
             System.out.println("Имя преподавателя - " + ITAcademyGroup.teacherName);
         } else {
-            throw new IncorrectTeacherFirstNameException("Не верное имя.");
+            throw new IncorrectTeacherFirstNameException("Неверное имя.");
         }
     }
 

@@ -27,9 +27,9 @@ public class CreateGroup {
                 ITAcademyGroup.setReligion(religionGroup);
                 ITAcademyGroup.setPeopleNumber(peopleNumber);
             } else if (!religionGroup.equalsIgnoreCase("Православие")) {
-                throw new WrongReligionGroupException("Не верная религия.");
+                throw new WrongReligionGroupException("Неверная религия.");
             } else if (!(peopleNumber == 14)) {
-                throw new ExceededNumberPeopleGroupException("Не верное количество человек.");
+                throw new ExceededNumberPeopleGroupException("Неверное количество человек.");
             }
         } catch (WrongReligionGroupException | ExceededNumberPeopleGroupException e) {
             System.err.println(e.getMessage() + " Взял все сломал :(");
