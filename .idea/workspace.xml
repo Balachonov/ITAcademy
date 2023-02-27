@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ea88d4-8dce-4ff3-b695-2daddb9d4476" name="Changes" comment="Homework">
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/CreateGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/ITAcademyGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/exception/ExceededNumberPeopleGroupException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/exception/IncorrectTeacherFirstNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task09/t01main/exception/WrongReligionGroupException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/ShopRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task10/t01main/Сonstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,20 +57,7 @@
       <recent name="task02.t03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.task09.t01main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task07.t01main.Main" />
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task07.t01main.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.task10.t01main.Main">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Runner" />
       <module name="Homework" />
@@ -122,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task10.t01main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task10.t01main.Main" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task10.t01main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task10.t01main.Main" />
         <item itemvalue="Application.task09.t01main.Main" />
         <item itemvalue="Application.task08.t01main.Main" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676920701564</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Homework">
+      <created>1677098941123</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677098941123</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Homework">
+      <created>1677099038596</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099038596</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
