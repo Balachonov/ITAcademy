@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.Iterator;
 
 import static task10.t01main.ProductList.productsList;
+import static task10.t01main.Сonstants.*;
 
 public class Order {
 
@@ -13,7 +14,7 @@ public class Order {
     public final String DATA_ORDER = setDataOrder();
     public final long ID_ORDER = setId();
 
-    public void addToOrder(long id){
+    public void addToOrder(long id) {
         for (Product product : productsList) {
             if (product.getID_PRODUCT() == id) {
                 ordersList.add(product);
@@ -21,16 +22,15 @@ public class Order {
         }
     }
 
-    public void printOrder(){
-        System.out.println(ordersList.size());
-
-        // for (Product product : ordersList) {
-            //     System.out.print(product);
-            // }
-        // System.out.println("\nДата заказа: " + DATA_ORDER + "\n" + "ID: " + ID_ORDER + "\n");
+    public void printOrder() {
+        System.out.println(ORDER + "\n");
+        for (Product product : ordersList) {
+            System.out.println(BOOK_NAME + product.getName() + ID + product.getID_PRODUCT());
+        }
+        System.out.println("\nДата заказа: " + DATA_ORDER + "\n" + "ID заказа: " + ID_ORDER + "\n");
     }
 
-    public void removeToOrder(long id){
+    public void removeToOrder(long id) {
         for (Product product : productsList) {
             if (product.getID_PRODUCT() == id) {
                 ordersList.remove(product);

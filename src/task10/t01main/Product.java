@@ -42,7 +42,7 @@ public class Product {
     public String toString() {
         return  "Название: " + name + "\n" +
                 "Дата публицкации: " + DATA_PUBLICATION + "\n" +
-                "ID: " + ID_PRODUCT + "\n" +
+                "ID книги: " + ID_PRODUCT + "\n" +
                 "Описание: " + description + "\n";
     }
 

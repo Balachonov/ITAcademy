@@ -2,7 +2,6 @@ package task10.t01main;
 
 import java.util.Scanner;
 
-import static task10.t01main.Order.ordersList;
 import static task10.t01main.ProductList.*;
 import static task10.t01main.Сonstants.*;
 
@@ -63,11 +62,11 @@ public class Menu {
             exit();
         } else {
             order.addToOrder(choice);
-            miniMenu();
+            addMenu();
         }
     }
 
-    public void miniMenu(){
+    public void addMenu(){
         System.out.println();
         System.out.println(ONE + " " + BACK);
         System.out.println(TWO + " " + ADD_BOOK);
@@ -125,6 +124,51 @@ public class Menu {
 
     public void orderMenu() {
         order.printOrder();
+        System.out.println();
+        System.out.println(PRODUCT_OUT_ORDER);
+        System.out.println(ONE + " " + BACK);
+        System.out.println(ZERO + " " + EXIT);
+        System.out.println();
+        System.out.println(CHOICE);
+        long choice = Long.parseLong(scanner.next());
+        if (choice == ONE) {
+            firstMenu();
+        }
+        if (choice == ZERO) {
+            exit();
+        } else {
+            order.removeToOrder(choice);
+            removeMenu();
+        }
+    }
+
+    public void removeMenu(){
+        System.out.println();
+        System.out.println(ONE + " " + BACK);
+        System.out.println(TWO + " " + REMOVE_BOOK);
+        System.out.println(ZERO + " " + EXIT);
+        System.out.println();
+        System.out.println(CHOICE);
+        boolean isRight = true;
+        while (isRight) {
+            switch (Integer.parseInt(scanner.next())) {
+                case ONE:
+                    firstMenu();
+                    isRight = false;
+                    break;
+                case TWO:
+                    orderMenu();
+                    isRight = false;
+                    break;
+                case ZERO:
+                    exit();
+                    isRight = false;
+                    break;
+                default:
+                    System.out.println(TRUE_CHOICE);
+                    break;
+            }
+        }
     }
 
     public void exit() {
