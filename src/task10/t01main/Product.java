@@ -6,7 +6,7 @@ import java.util.Date;
 public class Product {
     private String name;
     private final String DATA_PUBLICATION = setDataPublication();
-    private final long ID = setId();
+    private final long ID_PRODUCT = setId();
     private String description;
 
     public Product(String name, String description) {
@@ -34,16 +34,20 @@ public class Product {
         return DATA_PUBLICATION;
     }
 
-    public long getID() {
-        return ID;
+    public long getID_PRODUCT() {
+        return ID_PRODUCT;
     }
 
     @Override
     public String toString() {
-        return "Название книги: " + name + "\n" +
+        return  "Название: " + name + "\n" +
                 "Дата публицкации: " + DATA_PUBLICATION + "\n" +
-                "ID: " + ID + "\n" +
+                "ID: " + ID_PRODUCT + "\n" +
                 "Описание: " + description + "\n";
+    }
+
+    public String printNameId() {
+        return "Название: " + name + " ID: " + ID_PRODUCT;
     }
 
     private long setId() {

@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class ProductList {
-    public static ArrayList<Product> productList = setProductList();
+    public static ArrayList<Product> productsList = setProductList();
 
     private static ArrayList<Product> setProductList() {
 
-        productList = new ArrayList<>();
+        productsList = new ArrayList<>();
 
         Product firstBook = new Product("Высоконагруженные приложения. Программирование, масштабирование, " +
                 "поддержка.",
@@ -48,9 +48,9 @@ public class ProductList {
                         воплощать в коде свои собственные языки, позволяющие компилировать и запускать любые программы.
                         """);
 
-        Collections.addAll(productList, firstBook, secondBook, thirdBook, fourBook, fiveBook);
+        Collections.addAll(productsList, firstBook, secondBook, thirdBook, fourBook, fiveBook);
 
-        return productList;
+        return productsList;
     }
 
 }
