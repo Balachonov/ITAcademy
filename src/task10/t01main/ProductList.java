@@ -5,7 +5,6 @@ import java.util.Collections;
 
 public class ProductList {
     public static ArrayList<Product> productsList = setProductList();
-
     private static ArrayList<Product> setProductList() {
 
         productsList = new ArrayList<>();
@@ -52,5 +51,4 @@ public class ProductList {
 
         return productsList;
     }
-
 }

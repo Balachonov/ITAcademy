@@ -3,31 +3,25 @@ package task10.t01main;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static task10.t01main.Constants.*;
+
 public class Product {
-    private String name;
+    private final String NAME;
     private final String DATA_PUBLICATION = setDataPublication();
     private final long ID_PRODUCT = setId();
-    private String description;
+    private final String DESCRIPTION;
 
     public Product(String name, String description) {
-        this.name = name;
-        this.description = description;
+        this.NAME = name;
+        this.DESCRIPTION = description;
     }
 
-    public String getName() {
-        return name;
+    public String getNAME() {
+        return NAME;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    public String getDESCRIPTION() {
+        return DESCRIPTION;
     }
 
     public String getDATA_PUBLICATION() {
@@ -40,14 +34,14 @@ public class Product {
 
     @Override
     public String toString() {
-        return  "Название: " + name + "\n" +
-                "Дата публицкации: " + DATA_PUBLICATION + "\n" +
-                "ID книги: " + ID_PRODUCT + "\n" +
-                "Описание: " + description + "\n";
+        return  BOOK_NAME + NAME + "\n" +
+                DATE_PUBLICATION + DATA_PUBLICATION + "\n" +
+                ID + ID_PRODUCT + "\n" +
+                Constants.DESCRIPTION + DESCRIPTION + "\n";
     }
 
     public String printNameId() {
-        return "Название: " + name + " ID: " + ID_PRODUCT;
+        return BOOK_NAME + NAME + " " + ID + ID_PRODUCT;
     }
 
     private long setId() {

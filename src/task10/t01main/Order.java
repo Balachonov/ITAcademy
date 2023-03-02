@@ -3,18 +3,16 @@ package task10.t01main;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 
 import static task10.t01main.ProductList.productsList;
-import static task10.t01main.Сonstants.*;
+import static task10.t01main.Constants.*;
 
 public class Order {
-
     public static ArrayList<Product> ordersList = new ArrayList<>();
-    public final String DATA_ORDER = setDataOrder();
-    public final long ID_ORDER = setId();
+    private static final String DATA_ORDER = setDataOrder();
+    private static final long ID_ORDER = setId();
 
-    public void addToOrder(long id) {
+    public static void addToOrder(long id) {
         for (Product product : productsList) {
             if (product.getID_PRODUCT() == id) {
                 ordersList.add(product);
@@ -22,15 +20,7 @@ public class Order {
         }
     }
 
-    public void printOrder() {
-        System.out.println(ORDER + "\n");
-        for (Product product : ordersList) {
-            System.out.println(BOOK_NAME + product.getName() + ID + product.getID_PRODUCT());
-        }
-        System.out.println("\nДата заказа: " + DATA_ORDER + "\n" + "ID заказа: " + ID_ORDER + "\n");
-    }
-
-    public void removeToOrder(long id) {
+    public static void removeToOrder(long id) {
         for (Product product : productsList) {
             if (product.getID_PRODUCT() == id) {
                 ordersList.remove(product);
@@ -38,11 +28,27 @@ public class Order {
         }
     }
 
-    private long setId() {
+    public static void printOrder() {
+        System.out.println(ORDER + "\n");
+        for (Product product : ordersList) {
+            System.out.println(BOOK_NAME + product.getNAME() + ID + product.getID_PRODUCT());
+        }
+        System.out.println("\n" + DATE_ORDER + DATA_ORDER + "\n" + ID + ID_ORDER + "\n");
+    }
+
+    public static String getDATA_ORDER() {
+        return DATA_ORDER;
+    }
+
+    public static long getID_ORDER() {
+        return ID_ORDER;
+    }
+
+    private static long setId() {
         return (long) (Math.random() * 1000000000);
     }
 
-    private String setDataOrder() {
+    private static String setDataOrder() {
         SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
         Date date = new Date();
         return format.format(date);
