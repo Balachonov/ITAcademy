@@ -51,12 +51,12 @@
     <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/ExceededNumberPeopleGroupException.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/IncorrectTeacherFirstNameException.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task09/t01main/exception/WrongReligionGroupException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/task10/t01main/Constants.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/Menu.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/Order.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/Product.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/ProductList.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/task10/t01main/ShopRunner.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/task10/t01main/Сonstants.java" charset="UTF-8" />
   </component>
 </project>

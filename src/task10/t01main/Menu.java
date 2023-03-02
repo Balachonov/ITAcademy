@@ -24,27 +24,33 @@ public class Menu {
         System.out.println();
         System.out.println(CHOICE);
         boolean isRight = true;
-        while (isRight) {
-            switch (Integer.parseInt(scanner.next())) {
-                case ONE -> {
-                    productListMenu();
-                    isRight = false;
+        try {
+            while (isRight) {
+                switch (Integer.parseInt(scanner.next())) {
+                    case ONE -> {
+                        productListMenu();
+                        isRight = false;
+                    }
+                    case TWO -> {
+                        productDescriptionMenu();
+                        isRight = false;
+                    }
+                    case THREE -> {
+                        orderMenu();
+                        isRight = false;
+                    }
+                    case ZERO -> {
+                        exit();
+                        isRight = false;
+                    }
+                    default -> System.out.println(TRUE_CHOICE);
                 }
-                case TWO -> {
-                    productDescriptionMenu();
-                    isRight = false;
-                }
-                case THREE -> {
-                    orderMenu();
-                    isRight = false;
-                }
-                case ZERO -> {
-                    exit();
-                    isRight = false;
-                }
-                default -> System.out.println(TRUE_CHOICE);
             }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            firstMenu();
         }
+
     }
 
     private void productListMenu() {
@@ -57,15 +63,20 @@ public class Menu {
         System.out.println(ZERO + " " + EXIT);
         System.out.println();
         System.out.println(CHOICE);
-        long choice = Long.parseLong(scanner.next());
-        if (choice == ONE) {
+        try {
+            long choice = Long.parseLong(scanner.next());
+            if (choice == ONE) {
+                firstMenu();
+            }
+            if (choice == ZERO) {
+                exit();
+            } else {
+                Order.addToOrder(choice);
+                addMenu();
+            }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
             firstMenu();
-        }
-        if (choice == ZERO) {
-            exit();
-        } else {
-            Order.addToOrder(choice);
-            addMenu();
         }
     }
 
@@ -77,22 +88,27 @@ public class Menu {
         System.out.println();
         System.out.println(CHOICE);
         boolean isRight = true;
-        while (isRight) {
-            switch (Integer.parseInt(scanner.next())) {
-                case ONE -> {
-                    firstMenu();
-                    isRight = false;
+        try {
+            while (isRight) {
+                switch (Integer.parseInt(scanner.next())) {
+                    case ONE -> {
+                        firstMenu();
+                        isRight = false;
+                    }
+                    case TWO -> {
+                        productListMenu();
+                        isRight = false;
+                    }
+                    case ZERO -> {
+                        exit();
+                        isRight = false;
+                    }
+                    default -> System.out.println(TRUE_CHOICE);
                 }
-                case TWO -> {
-                    productListMenu();
-                    isRight = false;
-                }
-                case ZERO -> {
-                    exit();
-                    isRight = false;
-                }
-                default -> System.out.println(TRUE_CHOICE);
             }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            firstMenu();
         }
     }
 
@@ -106,18 +122,23 @@ public class Menu {
         System.out.println();
         System.out.println(CHOICE);
         boolean isRight = true;
-        while (isRight) {
-            switch (Integer.parseInt(scanner.next())) {
-                case ONE -> {
-                    firstMenu();
-                    isRight = false;
+        try {
+            while (isRight) {
+                switch (Integer.parseInt(scanner.next())) {
+                    case ONE -> {
+                        firstMenu();
+                        isRight = false;
+                    }
+                    case ZERO -> {
+                        exit();
+                        isRight = false;
+                    }
+                    default -> System.out.println(TRUE_CHOICE);
                 }
-                case ZERO -> {
-                    exit();
-                    isRight = false;
-                }
-                default -> System.out.println(TRUE_CHOICE);
             }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            firstMenu();
         }
     }
 
@@ -129,15 +150,20 @@ public class Menu {
         System.out.println(ZERO + " " + EXIT);
         System.out.println();
         System.out.println(CHOICE);
-        long choice = Long.parseLong(scanner.next());
-        if (choice == ONE) {
+        try {
+            long choice = Long.parseLong(scanner.next());
+            if (choice == ONE) {
+                firstMenu();
+            }
+            if (choice == ZERO) {
+                exit();
+            } else {
+                Order.removeToOrder(choice);
+                removeMenu();
+            }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
             firstMenu();
-        }
-        if (choice == ZERO) {
-            exit();
-        } else {
-            Order.removeToOrder(choice);
-            removeMenu();
         }
     }
 
@@ -149,22 +175,27 @@ public class Menu {
         System.out.println();
         System.out.println(CHOICE);
         boolean isRight = true;
-        while (isRight) {
-            switch (Integer.parseInt(scanner.next())) {
-                case ONE -> {
-                    firstMenu();
-                    isRight = false;
+        try {
+            while (isRight) {
+                switch (Integer.parseInt(scanner.next())) {
+                    case ONE -> {
+                        firstMenu();
+                        isRight = false;
+                    }
+                    case TWO -> {
+                        orderMenu();
+                        isRight = false;
+                    }
+                    case ZERO -> {
+                        exit();
+                        isRight = false;
+                    }
+                    default -> System.out.println(TRUE_CHOICE);
                 }
-                case TWO -> {
-                    orderMenu();
-                    isRight = false;
-                }
-                case ZERO -> {
-                    exit();
-                    isRight = false;
-                }
-                default -> System.out.println(TRUE_CHOICE);
             }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            firstMenu();
         }
     }
 
@@ -175,22 +206,27 @@ public class Menu {
         System.out.println();
         System.out.println(SURE);
         boolean isRight = true;
-        while (isRight) {
-            switch (Integer.parseInt(scanner.next())) {
-                case ONE -> {
-                    try {
-                        saveFilesOrderAndProduct();
-                    } catch (IOException e) {
-                        e.printStackTrace();
+        try {
+            while (isRight) {
+                switch (Integer.parseInt(scanner.next())) {
+                    case ONE -> {
+                        try {
+                            saveFilesOrderAndProduct();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        isRight = false;
                     }
-                    isRight = false;
+                    case TWO -> {
+                        firstMenu();
+                        isRight = false;
+                    }
+                    default -> System.out.println(TRUE_CHOICE);
                 }
-                case TWO -> {
-                    firstMenu();
-                    isRight = false;
-                }
-                default -> System.out.println(TRUE_CHOICE);
             }
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            firstMenu();
         }
     }
 
@@ -207,6 +243,7 @@ public class Menu {
                 writerOne.append(ID).append(String.valueOf(product.getID_PRODUCT()));
                 writerOne.newLine();
                 writerOne.append(DESCRIPTION).append(product.getDESCRIPTION());
+                writerOne.newLine();
             }
 
             for (Product product : ordersList) {
@@ -217,6 +254,7 @@ public class Menu {
                 writerTwo.append(ID).append(String.valueOf(product.getID_PRODUCT()));
                 writerTwo.newLine();
                 writerTwo.append(DESCRIPTION).append(product.getDESCRIPTION());
+                writerOne.newLine();
             }
             writerTwo.newLine();
             writerTwo.append(DATE_ORDER).append(Order.getDATA_ORDER());
